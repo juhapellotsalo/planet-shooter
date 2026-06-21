@@ -930,11 +930,11 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId:
+  cloudProjectId: fc68b554-2b8b-41cc-818d-4ac9e99b80af
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: planet-shooter
-  organizationId:
+  organizationId: juhapellotsalo
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

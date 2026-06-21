@@ -76,6 +76,7 @@ public class Bullet : MonoBehaviour
             {
                 en.TakeDamage(damage);
                 ExplosionFX.Hit(wp, -transform.forward, Color.white); // directional impact sparks (ricochet back)
+                Sfx.EnemyHit();                                       // central hit sound (cube or chaser)
                 Destroy(gameObject);
                 return;
             }

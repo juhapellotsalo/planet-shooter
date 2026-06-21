@@ -82,6 +82,8 @@ public class ShipWeapon : MonoBehaviour
         b.maxArcDegrees = bulletMaxArc;
         b.damage = damage;
         b.Init(localPos, localDir, bulletRadius, bulletSpeed, cam);
+
+        Sfx.Laser(); // laser sound is configured centrally on the Audio object (Sfx)
     }
 
     /// <summary>Creates a diamond GameObject (mesh + material) parented under the planet, with a glowing trail.</summary>
