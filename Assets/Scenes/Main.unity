@@ -5579,9 +5579,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b0d2e6e44444a059fe96bc0a52d8e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sfx
-  enemyHit: {fileID: 0}
-  enemyHitVolume: 0.6
+  enemyHit: {fileID: 8300000, guid: 92a7d9b3310814b668cc626aa4dca559, type: 3}
+  enemyHitVolume: 0.4
   enemyHitPitchJitter: 0.08
+  laser: {fileID: 8300000, guid: 1d1ed28d6b05a44f68bf870ce9a7e272, type: 3}
+  laserVolume: 0.15
+  laserPitchJitter: 0.06
 --- !u!4 &1405222931
 Transform:
   m_ObjectHideFlags: 0
@@ -6588,9 +6591,6 @@ MonoBehaviour:
   diamondHalfWidth: 0.06
   bulletColor: {r: 2.6, g: 2.1, b: 0.5, a: 1}
   damage: 1
-  fireSound: {fileID: 8300000, guid: 1d1ed28d6b05a44f68bf870ce9a7e272, type: 3}
-  fireVolume: 0.5
-  firePitchJitter: 0.06
 --- !u!96 &1662477978
 TrailRenderer:
   serializedVersion: 4
