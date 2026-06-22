@@ -5,6 +5,10 @@ with [Claude Code](https://claude.com/claude-code). The game is a straight-up *G
 mock-up played on the surface of a sphere. The game itself isn't the point. It exists only as
 something with enough moving parts to see how far the AI-driven editor loop can go.
 
+[![Planet Shooter gameplay clip](https://img.youtube.com/vi/oUiW_wJgxtQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=oUiW_wJgxtQ)
+
+*▶ Click to watch a gameplay clip on YouTube.*
+
 ## Why it exists
 
 The aim was to answer one question: can Claude Code drive a real Unity project through MCP, or
